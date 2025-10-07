@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  proyecto2:
+    build: .
+    container_name: proyecto2_bootstrap
+    ports:
+      - "8081:8080"

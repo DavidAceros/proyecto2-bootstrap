@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  proyecto2:
+    image: davidaceros/proyecto2-bootstrap:latest
+    container_name: proyecto2_bootstrap
+    ports:
+      - "8081:8080"
